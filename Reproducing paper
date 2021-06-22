@@ -52,6 +52,29 @@ samtools view -S -b /path to/sam file > /path to bam file/name of bam file
 samtools sort -o /path/to/output/sorted.bam file /path/to/created bam file
 ```
 
-#
+# View result
+```
+samtools flagstat /path/to/sorted.bam file
+```
+#Calculate the read coverage position
 
+```
+ bcftools mpileup -O b -o /path/to/output/.bcf \
+ -f /path/to/reference/genome/.fasta \
+ /path/to/sorted.bam files/
+ ```
+ 
+#Detect the SNPs
+```
+bcftools call -m -v -o /path/to/output/.vcf /path/to/.bcf files
+```
+#Filter SNPs in VCF
+```
+vcfutils.pl varFilter /path/to/.vcf file > *_final.vcf
+```
+
+#View final vcf
+```
+less -S path to vcf
+```
 
