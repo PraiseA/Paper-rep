@@ -2,7 +2,7 @@
 
 ## Download the SRA fastq files
 Get the accession number of the specie
-Search on: https://www.ncbi.nlm.nih.gov/sra/ with the accession number
+Search on: (https://www.ncbi.nlm.nih.gov/sra/ with the accession number)
 On the terminal, fastq-dump with the run number on the page
 
 ```
