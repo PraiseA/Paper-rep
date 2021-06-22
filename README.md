@@ -18,4 +18,7 @@ On the terminal, fastq-dump with the run number on the page
  
  ## Align the fastq files using bowtie2
  
+ # Download reference genome
  
+ 
+ # Index the reference genome
