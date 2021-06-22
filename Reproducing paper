@@ -31,6 +31,7 @@ On the terminal, fastq-dump with the run number on the page
 ```
  bowtie2-build -f reference genome in .fasta **path to file created with name**
 ```
+
 # Align the fastq files to the reference genome
 ```
  bowtie2 -x *path to indexed genome -q -1 *path to 1st paired end -2 *path to 2nd paired end -S *path to new sam file 
@@ -38,4 +39,19 @@ On the terminal, fastq-dump with the run number on the page
  ```
  bowtie2 -x /home/praise/practice/rawdata/GCFindex -q -1 /home/praise/practice/rawdata/fastq4/ERR495205_pass_1.fastq -2 /home/praise/practice/rawdata/fastq4/ERR495205_pass_2.fastq -S /home/praise/practice/rawdata/Homohuman/fastq4.sam
  ```
+
+# Convert sam to bam file 
+
+```
+samtools view -S -b /path to/sam file > /path to bam file/name of bam file
+```
+
+# Sort bam files 
+
+```
+samtools sort -o /path/to/output/sorted.bam file /path/to/created bam file
+```
+
+#
+
 
