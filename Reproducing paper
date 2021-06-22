@@ -14,7 +14,9 @@ b. stool - ERS394427 outdir = fastq5
 c. blood - ERS394426 outdir = fastq6
 Fish - ERS394472 outdir = fastq7
 Seafood - 
-a. ERS394473(france fastq8),  ERS394484(India fastq9), ERS394490(New Caledonia fastq10) 
+a. France - ERS394473 outdir = fastq8 
+b. India - ERS394484 outdir = fastq9
+c. New Caledonia ERS394490 outdir = fastq10 
 Poultry - ERS394475(Reunion fastq11)PR, ERS394487(India fastq12) PI, ERS394500(France fastq 13) PF
 Food - ERS394474 (Reunion fastq14)FR, ERS394476(New Caledonia fastq15) FN, 
 Environment feeding stuffs plant - ERS394482(Reunion) fastq16 EF
