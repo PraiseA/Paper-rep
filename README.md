@@ -56,7 +56,7 @@ samtools sort -o /path/to/output/sorted.bam file /path/to/created bam file
 ```
 samtools flagstat /path/to/sorted.bam file
 ```
-#Calculate the read coverage position
+# Calculate the read coverage position
 
 ```
  bcftools mpileup -O b -o /path/to/output/.bcf \
@@ -64,16 +64,19 @@ samtools flagstat /path/to/sorted.bam file
  /path/to/sorted.bam files/
  ```
  
-#Detect the SNPs
+# Detect the SNPs
 ```
 bcftools call -m -v -o /path/to/output/.vcf /path/to/.bcf files
 ```
-#Filter SNPs in VCF
+# Filter SNPs in VCF
 ```
 vcfutils.pl varFilter /path/to/.vcf file > *_final.vcf
 ```
 
-#View final vcf
+# View final vcf
 ```
 less -S path to vcf
+```
+## Create Phylogenetic Tree
+# Convert bam file to fasta file
 ```
