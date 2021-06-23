@@ -17,10 +17,17 @@ Seafood -
 a. France - ERS394473 outdir = fastq8 
 b. India - ERS394484 outdir = fastq9
 c. New Caledonia ERS394490 outdir = fastq10 
-Poultry - ERS394475(Reunion fastq11)PR, ERS394487(India fastq12) PI, ERS394500(France fastq 13) PF
-Food - ERS394474 (Reunion fastq14)FR, ERS394476(New Caledonia fastq15) FN, 
-Environment feeding stuffs plant - ERS394482(Reunion) fastq16 EF
-environment - ERS394486(Reunion fastq17) EnR, ERS394488(India fastq18) EnI, 
+Poultry - 
+a. Reunion - ERS394475 outdir = fastq11 PR 
+b. India - ERS394487 outdir = fastq12 PI
+c. France - ERS394500 outdir = fastq 13 PF
+Food - 
+a. Reunion - ERS394474 outdir =  fastq14 FR
+b. New Caledonia - ERS394476 outdir = fastq15 FN 
+Environment feeding stuffs plant - ERS394482 outdir = fastq16 EF
+environment - 
+a. Reunion - ERS394486 outdir = fastq17 EnR
+b. India - ERS394488 outdir = fastq18 EnI 
 Vegetable - ERS394489(France), fastq19 VF
 Porcine Feed - ERS394492(New Caledonia fastq20) PoF
 Bovine - ERS394494(New Caledonia fastq21) Bo
