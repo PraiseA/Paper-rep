@@ -77,6 +77,15 @@ vcfutils.pl varFilter /path/to/.vcf file > *_final.vcf
 ```
 less -S path to vcf
 ```
+# Convert vcf files to .vcf.gz and index
+```
+bgzip *.vcf
+bcftools index *.vcf.gz
+```
+# Combine all vcf files into 1
+```
+bcftools merge -Oz *.vcf.gz *.vcf.gz ... > Final.vcf.gz
+```
 ## Create Phylogenetic Tree
 # Convert bam file to fasta file
 ```
