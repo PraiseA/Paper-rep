@@ -87,5 +87,27 @@ bcftools index *.vcf.gz
 bcftools merge -Oz *.vcf.gz *.vcf.gz ... > Final.vcf.gz
 ```
 ## Create Phylogenetic Tree
-# Convert bam file to fasta file
+# Convert vcf file to fasta file
+# vcfphylip is cloned to the terminal
+```
+git clone https://github.com/edgardomortiz/vcf2phylip.git
+```
+```
+ python vcf2phylip.py -i nameoffile.vcf -f
+ ```
+# fasta files to phylogenetic tree
+Website used: https://ngphylogeny.fr/tools/
+
+## Resistance Analysis
+# Installing ARIBA
+```
+pip3 install ariba
+```
+# Download the data of the specie in question
+```
+ariba pubmlstget 'Salmonella enterica' out
+```
+# Running local assemblies and call variants
+```
+ariba run out/ref_db reads_1.fq reads_2.fq output_directory
 ```
