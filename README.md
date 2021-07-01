@@ -22,7 +22,7 @@ On the terminal, fastq-dump with the run number on the page
   
  This is done on each SRA file downloaded
  
- ## Align the fastq files using bowtie2
+ ## Align the fastq files using bowtie2 (reference: https://datacarpentry.org/wrangling-genomics/04-variant_calling/index.html)
  
  # Download reference genome
  
@@ -111,3 +111,8 @@ ariba pubmlstget 'Salmonella enterica' out
 ```
 ariba run out/ref_db reads_1.fq reads_2.fq output_directory
 ```
+# Summarizing data from several runs
+```
+ariba summary out.summary out.run1/report.tsv out.run2/report.tsv out.run3/report.tsv .....
+```
+Will create out.summary.csv, out.summary.phandango.csv out.summary.phandango.tre
