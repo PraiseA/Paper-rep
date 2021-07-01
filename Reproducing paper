@@ -29,6 +29,8 @@ environment -
 a. Reunion - ERS394486 outdir = fastq17 EnR
 b. India - ERS394488 outdir = fastq18 EnI 
 Vegetable - ERS394489(France), fastq19 VF
+
+
 Porcine Feed - ERS394492(New Caledonia fastq20) PoF
 Bovine - ERS394494(New Caledonia fastq21) Bo
 Pork - ERS394498(France fastq22) Po
