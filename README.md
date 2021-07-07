@@ -97,6 +97,8 @@ git clone https://github.com/edgardomortiz/vcf2phylip.git
  ```
 # fasta files to phylogenetic tree
 Website used: https://ngphylogeny.fr/tools/
+My work: https://ngphylogeny.fr/workspace/histories
+Phylogenetic tree of the samples: https://ngphylogeny.fr/workspace/history/146848155c83b4f6
 
 ## Resistance Analysis
 # Installing ARIBA
